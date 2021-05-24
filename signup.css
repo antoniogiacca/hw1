@@ -1,0 +1,140 @@
+body {
+  color:rgba(25, 60, 70, 0.8);
+  font-family: 'Lato', sans-serif;
+  font-size:25px;
+  font-style:normal;
+  margin: 0;
+  background-image: url(https://citynews-pisatoday.stgy.ovh/~media/original-hi/68978935007355/concessionaria-auto-2.jpg);
+  background-size: cover;
+  background-position:center;
+  position:relative;
+  width:100%;
+  height:100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+@media (max-width: 500px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+
+#overlay{
+  background-color:rgba(0,0,0,0.3);
+  position:absolute;
+  top:0;
+  bottom:0;
+  height:100%;
+  width:100%;
+}
+
+main{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  width:35vw;
+  height:70vh;
+  margin: 50px;
+  background-color: rgba(255,255,255,0.6);
+  position: relative;
+  flex-direction: column;
+}
+
+#header{
+  color: darkgreen;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  width:100%;
+  height:30%;
+}
+
+#header img{
+  width:60px;
+  height:60px;
+}
+
+#header img#close{
+  width:30px;
+  height:30px;
+}
+
+#header img#close:hover{
+  background-color: rgba(0,0,0,0.3);
+  border-radius: 100%;
+}
+
+main div#other{
+  display: flex;
+  flex-direction: column;
+}
+
+main div#name_surname input{
+  margin: 5px;
+}
+
+main div#other input{
+  margin: 5px;
+}
+
+
+input{
+  background-color: rgb(46, 45, 45);
+  border: 0px;
+  height: 3rem;
+  padding: 10px;
+  font-size: 0.6em;
+  color: white;
+  border-radius: 4px;
+  outline: none;
+}
+
+input:focus{
+  background-color: white;
+  color: black;
+  font-weight: bold;
+}
+
+
+#login{
+  font-family: 'Josefin Sans', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 15%;
+  background-color:rgb(46, 45, 45);
+}
+
+#login a{
+  color: white;
+  text-decoration: none;
+}
+
+input.btn{
+  font-family: 'Yeseva One', sans-serif;
+  border-radius: 20px;
+  height: fit-content;
+  width:fit-content;
+  font-size: 0.7em;
+  font-weight: bold;
+  background-color: darkgreen;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+input.btn:hover{
+  background-color: white;
+  color: darkgreen;
+}
+
+
+
+
